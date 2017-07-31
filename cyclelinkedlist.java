@@ -8,7 +8,7 @@
  */
 public class Solution {
 	public ListNode detectCycle(ListNode a) {
-	    
+	    //Floyd's cycle finding algorithm
 	    ListNode slow=a;
 	    ListNode fast=a;
 	   // int cycle;
